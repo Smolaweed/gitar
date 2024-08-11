@@ -1,0 +1,295 @@
+@import "normalizez.scss"
+@import "resets.scss"
+
+*
+    box-sizing: border-box
+
+@font-face 
+    font-family: "MontserratT"
+    src: url('../font/Montserrat-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+
+@font-face 
+    font-family: "MontserratT"
+    src: url('../font/Montserrat-SemiBold.ttf')
+    font-weight: bold
+    font-style: normal
+
+html
+    font-family: "MontserratT"
+    font-weight: regular
+
+$color-red: #6E1D26
+$color-green: #69816B
+$color-grey: #696868
+.container
+    position: relative
+    max-width: 1140px
+    margin:  0 auto
+
+.main-section
+    position: relative
+    min-height: 803px
+    background: #DFDBCF
+    padding-top: 7px
+    overflow: hidden
+    &__nav-container
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        height: 108px
+        align-items: center
+    &__content-container
+        position: relative
+        display: flex
+        flex-direction: row
+    &__first-elipse
+        position: absolute
+        top: 115px
+        right: 275px
+    &__second-elipse
+        position: absolute
+        right: -120px
+        top: 650px
+
+
+.nav-menu
+    &__list
+        font-weight: bold
+        display: flex
+        flex-direction: row
+    &__list-item
+        margin-right: 86px
+        font-size: 16px
+        &:last-child
+            margin-right: 0px
+        a
+            text-decoration: none
+            color: black
+
+
+.left-wrapper
+    position: relative
+    img
+        position: relative
+        z-index: 5
+    &__reaactangle-red
+        position: absolute
+        top: 170px
+        left: -75px
+        width: 610px
+        height: 220px
+        background: $color-red
+        border-radius: 100px
+        box-shadow: 0px 4px 4px rgba(0 ,0 ,0 , 0.25)
+        transform: rotate(-76deg)
+        z-index: 2
+    &__reaactangle-green
+        position: absolute
+        top: 190px
+        left: -27px
+        width: 630px
+        height: 220px
+        background: $color-green
+        border-radius: 100px
+        box-shadow: 0px 4px 4px rgba(0 ,0 ,0 , 0.25)
+        transform: rotate(-58deg)
+        z-index: 3
+    &__reaactangle-grey
+        position: absolute
+        top: 210px
+        left: 35px
+        width: 620px
+        height: 218px
+        background: $color-grey
+        border-radius: 100px
+        box-shadow: 0px 4px 4px rgba(0 ,0 ,0 , 0.25)
+        transform: rotate(-46deg)
+        z-index: 1
+
+.right-wrapper
+    width: 406px
+    position: absolute
+    top: 90px
+    right: -55px
+    z-index: 1
+    &__icons-box
+        padding-left: 147px
+    &__title
+        margin-bottom: 20px
+        font-weight: bold
+    &__text
+        font-size: 16px
+        margin-left: -25px
+        margin-bottom: 20px
+
+.icons
+    display: flex
+    flex-direction: row
+    &__item
+        margin-right: 10px
+        &:last-child
+            margin-right: 0px
+
+.title
+    font-size: 72px
+
+.buttons
+    display: inline-flex
+    &__main-btn
+        width: 206px
+        height: 67px
+        background-color: $color-green
+        box-shadow: 0px 4px 4px rgba(0 ,0 ,0 , 0.25)
+        border-radius: 100px
+        border: none
+        font-size: 18px
+        color: white
+
+.elipse
+    width: 107px
+    height: 107px
+    background: linear-gradient(180deg, rgba(105, 129, 107, 1) , rgba(105, 129, 107, 0.4) )
+    box-shadow: 0px 4px 4px rgba(0 ,0 ,0 , 0.25)
+    border-radius: 150px
+    display: flex
+    justify-content: center
+    align-items: center
+    &_dig
+        width: 223px
+        height: 223px
+    &__subtract
+        width: 78px
+        height: 78px
+        background: #DFDBCF
+        border-radius: 150px
+        box-shadow: inset 0px 4px 4px rgba(0 ,0 ,0 , 0.25)
+        &_big
+            width: 162px
+            height: 162px
+
+.second-section
+    min-height: 800px
+    background: #dfdbcf
+    &__container
+        position: relative
+        padding-top: 34px
+    &__title
+        margin-bottom: 70px
+        font-weight: bold
+    &__cards-box
+        display: inline-flex
+        margin-bottom: 50px
+    &__cards-item
+        margin-right: 30px
+        z-index: 1
+        &:last-child
+            margin-right: 0
+    &__icons-box
+        display: flex
+        justify-content: center
+    &__icons-item
+        margin-right: 70px
+        &:last-child
+            margin-right: 0
+    &__first-elipse
+        position: absolute
+        top: 70px
+        right: -85px
+        z-index: 0
+        background: linear-gradient(0deg, rgba(110, 29, 38, 1) , rgba(110, 29, 38, 0.4) )
+    &__second-elipse
+        position: absolute
+        top: 313px
+        left: -110px
+        z-index: 0
+        background: linear-gradient(180deg, rgba(105, 104, 104, 1) , rgba(105, 104, 104, 0.4) )
+
+.cards-item
+    position: relative
+    width: 360px
+    height: 360px
+    background-color: $color-grey
+    border-radius: 10px
+    box-shadow: 0px 4px 4px rgba(0 ,0 ,0 , 0.25)
+    display: flex
+    align-items: flex-end
+    &__img
+        height: 310px
+        width: 180px
+    &__text
+        font-size: 36px
+        text-align: center
+        transform: rotate(90deg)
+        position: absolute
+        top: 140px
+        right: 10px
+
+.cards-item_green
+    background-color: $color-green
+    &_text
+        top: 170px
+
+.cards-item_red
+    background-color: $color-red
+
+.icons-item
+    display: inline-flex
+    align-items: center
+    &__img
+        margin-right: 20px
+        width: 91px
+    &__text
+        font-size: 18px
+        span
+            font-size: 50px
+            font-weight: bold
+
+.third-section
+    position: relative
+    min-height: 800px
+    background: #dfdbcf
+    z-index: 0
+    overflow: hidden
+    &__container
+        position: relative
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-between
+        padding-left: 200px
+        padding-top: 34px
+    &__right-wrapper
+        max-width: 530px
+    &__title
+        margin-bottom: 12px
+        font-weight: bold
+    &__text
+        font-size: 18
+        margin-bottom: 34px
+    &__figure
+        position: absolute
+        top: 60px
+        right: 750px
+        z-index: -1
+    &__first-elipse
+        position: absolute
+        right: -120px
+        top: -120px
+
+.footer
+    background: #dfdbcf
+    &__img
+        position: absolute
+        left: -250px
+        bottom: 0px
+    &__container
+        min-height: 272px
+        display: flex
+        align-items: center
+        justify-content: flex-end
+    &__title
+        margin-bottom: 20px
+        font-weight: bold
+

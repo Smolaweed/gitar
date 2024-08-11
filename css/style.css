@@ -1,0 +1,895 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../обучение IT/что то/src/sass/normalizez.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../обучение IT/что то/src/sass/normalizez.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../обучение IT/что то/src/sass/normalizez.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../обучение IT/что то/src/sass/normalizez.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../обучение IT/что то/src/sass/normalizez.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../обучение IT/что то/src/sass/normalizez.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../обучение IT/что то/src/sass/normalizez.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../обучение IT/что то/src/sass/normalizez.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../обучение IT/что то/src/sass/normalizez.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../обучение IT/что то/src/sass/normalizez.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../обучение IT/что то/src/sass/normalizez.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../обучение IT/что то/src/sass/normalizez.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../обучение IT/что то/src/sass/normalizez.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../обучение IT/что то/src/sass/normalizez.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../обучение IT/что то/src/sass/normalizez.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../обучение IT/что то/src/sass/normalizez.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../обучение IT/что то/src/sass/normalizez.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../обучение IT/что то/src/sass/normalizez.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../обучение IT/что то/src/sass/normalizez.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../обучение IT/что то/src/sass/normalizez.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../обучение IT/что то/src/sass/normalizez.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../обучение IT/что то/src/sass/normalizez.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../обучение IT/что то/src/sass/normalizez.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../обучение IT/что то/src/sass/normalizez.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../обучение IT/что то/src/sass/normalizez.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../обучение IT/что то/src/sass/normalizez.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../обучение IT/что то/src/sass/normalizez.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../обучение IT/что то/src/sass/normalizez.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../обучение IT/что то/src/sass/normalizez.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../обучение IT/что то/src/sass/normalizez.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../обучение IT/что то/src/sass/normalizez.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../обучение IT/что то/src/sass/normalizez.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../обучение IT/что то/src/sass/normalizez.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../обучение IT/что то/src/sass/normalizez.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../обучение IT/что то/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../обучение IT/что то/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../обучение IT/что то/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../обучение IT/что то/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../обучение IT/что то/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../обучение IT/что то/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../обучение IT/что то/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../обучение IT/что то/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, ../обучение IT/что то/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../font/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../font/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../обучение IT/что то/src/sass/style.sass */
+html {
+  font-family: "MontserratT";
+  font-weight: regular;
+}
+
+/* line 26, ../обучение IT/что то/src/sass/style.sass */
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 31, ../обучение IT/что то/src/sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 803px;
+  background: #DFDBCF;
+  padding-top: 7px;
+  overflow: hidden;
+}
+
+/* line 37, ../обучение IT/что то/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 108px;
+  align-items: center;
+}
+
+/* line 43, ../обучение IT/что то/src/sass/style.sass */
+.main-section__content-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 47, ../обучение IT/что то/src/sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 115px;
+  right: 275px;
+}
+
+/* line 51, ../обучение IT/что то/src/sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+}
+
+/* line 58, ../обучение IT/что то/src/sass/style.sass */
+.nav-menu__list {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 62, ../обучение IT/что то/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 86px;
+  font-size: 16px;
+}
+
+/* line 65, ../обучение IT/что то/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 67, ../обучение IT/что то/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 72, ../обучение IT/что то/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 74, ../обучение IT/что то/src/sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 77, ../обучение IT/что то/src/sass/style.sass */
+.left-wrapper__reaactangle-red {
+  position: absolute;
+  top: 170px;
+  left: -75px;
+  width: 610px;
+  height: 220px;
+  background: #6E1D26;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-76deg);
+  z-index: 2;
+}
+
+/* line 88, ../обучение IT/что то/src/sass/style.sass */
+.left-wrapper__reaactangle-green {
+  position: absolute;
+  top: 190px;
+  left: -27px;
+  width: 630px;
+  height: 220px;
+  background: #69816B;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-58deg);
+  z-index: 3;
+}
+
+/* line 99, ../обучение IT/что то/src/sass/style.sass */
+.left-wrapper__reaactangle-grey {
+  position: absolute;
+  top: 210px;
+  left: 35px;
+  width: 620px;
+  height: 218px;
+  background: #696868;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-46deg);
+  z-index: 1;
+}
+
+/* line 111, ../обучение IT/что то/src/sass/style.sass */
+.right-wrapper {
+  width: 406px;
+  position: absolute;
+  top: 90px;
+  right: -55px;
+  z-index: 1;
+}
+
+/* line 117, ../обучение IT/что то/src/sass/style.sass */
+.right-wrapper__icons-box {
+  padding-left: 147px;
+}
+
+/* line 119, ../обучение IT/что то/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* line 122, ../обучение IT/что то/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-left: -25px;
+  margin-bottom: 20px;
+}
+
+/* line 127, ../обучение IT/что то/src/sass/style.sass */
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 130, ../обучение IT/что то/src/sass/style.sass */
+.icons__item {
+  margin-right: 10px;
+}
+
+/* line 132, ../обучение IT/что то/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 135, ../обучение IT/что то/src/sass/style.sass */
+.title {
+  font-size: 72px;
+}
+
+/* line 138, ../обучение IT/что то/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 140, ../обучение IT/что то/src/sass/style.sass */
+.buttons__main-btn {
+  width: 206px;
+  height: 67px;
+  background-color: #69816B;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+  color: white;
+}
+
+/* line 150, ../обучение IT/что то/src/sass/style.sass */
+.elipse {
+  width: 107px;
+  height: 107px;
+  background: linear-gradient(180deg, #69816b, rgba(105, 129, 107, 0.4));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 159, ../обучение IT/что то/src/sass/style.sass */
+.elipse_dig {
+  width: 223px;
+  height: 223px;
+}
+
+/* line 162, ../обучение IT/что то/src/sass/style.sass */
+.elipse__subtract {
+  width: 78px;
+  height: 78px;
+  background: #DFDBCF;
+  border-radius: 150px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* line 168, ../обучение IT/что то/src/sass/style.sass */
+.elipse__subtract_big {
+  width: 162px;
+  height: 162px;
+}
+
+/* line 172, ../обучение IT/что то/src/sass/style.sass */
+.second-section {
+  min-height: 800px;
+  background: #dfdbcf;
+}
+
+/* line 175, ../обучение IT/что то/src/sass/style.sass */
+.second-section__container {
+  position: relative;
+  padding-top: 34px;
+}
+
+/* line 178, ../обучение IT/что то/src/sass/style.sass */
+.second-section__title {
+  margin-bottom: 70px;
+  font-weight: bold;
+}
+
+/* line 181, ../обучение IT/что то/src/sass/style.sass */
+.second-section__cards-box {
+  display: inline-flex;
+  margin-bottom: 50px;
+}
+
+/* line 184, ../обучение IT/что то/src/sass/style.sass */
+.second-section__cards-item {
+  margin-right: 30px;
+  z-index: 1;
+}
+
+/* line 187, ../обучение IT/что то/src/sass/style.sass */
+.second-section__cards-item:last-child {
+  margin-right: 0;
+}
+
+/* line 189, ../обучение IT/что то/src/sass/style.sass */
+.second-section__icons-box {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 192, ../обучение IT/что то/src/sass/style.sass */
+.second-section__icons-item {
+  margin-right: 70px;
+}
+
+/* line 194, ../обучение IT/что то/src/sass/style.sass */
+.second-section__icons-item:last-child {
+  margin-right: 0;
+}
+
+/* line 196, ../обучение IT/что то/src/sass/style.sass */
+.second-section__first-elipse {
+  position: absolute;
+  top: 70px;
+  right: -85px;
+  z-index: 0;
+  background: linear-gradient(0deg, #6e1d26, rgba(110, 29, 38, 0.4));
+}
+
+/* line 202, ../обучение IT/что то/src/sass/style.sass */
+.second-section__second-elipse {
+  position: absolute;
+  top: 313px;
+  left: -110px;
+  z-index: 0;
+  background: linear-gradient(180deg, #696868, rgba(105, 104, 104, 0.4));
+}
+
+/* line 209, ../обучение IT/что то/src/sass/style.sass */
+.cards-item {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  background-color: #696868;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: flex-end;
+}
+
+/* line 218, ../обучение IT/что то/src/sass/style.sass */
+.cards-item__img {
+  height: 310px;
+  width: 180px;
+}
+
+/* line 221, ../обучение IT/что то/src/sass/style.sass */
+.cards-item__text {
+  font-size: 36px;
+  text-align: center;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 140px;
+  right: 10px;
+}
+
+/* line 229, ../обучение IT/что то/src/sass/style.sass */
+.cards-item_green {
+  background-color: #69816B;
+}
+
+/* line 231, ../обучение IT/что то/src/sass/style.sass */
+.cards-item_green_text {
+  top: 170px;
+}
+
+/* line 234, ../обучение IT/что то/src/sass/style.sass */
+.cards-item_red {
+  background-color: #6E1D26;
+}
+
+/* line 237, ../обучение IT/что то/src/sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 240, ../обучение IT/что то/src/sass/style.sass */
+.icons-item__img {
+  margin-right: 20px;
+  width: 91px;
+}
+
+/* line 243, ../обучение IT/что то/src/sass/style.sass */
+.icons-item__text {
+  font-size: 18px;
+}
+
+/* line 245, ../обучение IT/что то/src/sass/style.sass */
+.icons-item__text span {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* line 249, ../обучение IT/что то/src/sass/style.sass */
+.third-section {
+  position: relative;
+  min-height: 800px;
+  background: #dfdbcf;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* line 255, ../обучение IT/что то/src/sass/style.sass */
+.third-section__container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-top: 34px;
+}
+
+/* line 263, ../обучение IT/что то/src/sass/style.sass */
+.third-section__right-wrapper {
+  max-width: 530px;
+}
+
+/* line 265, ../обучение IT/что то/src/sass/style.sass */
+.third-section__title {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+/* line 268, ../обучение IT/что то/src/sass/style.sass */
+.third-section__text {
+  font-size: 18;
+  margin-bottom: 34px;
+}
+
+/* line 271, ../обучение IT/что то/src/sass/style.sass */
+.third-section__figure {
+  position: absolute;
+  top: 60px;
+  right: 750px;
+  z-index: -1;
+}
+
+/* line 276, ../обучение IT/что то/src/sass/style.sass */
+.third-section__first-elipse {
+  position: absolute;
+  right: -120px;
+  top: -120px;
+}
+
+/* line 281, ../обучение IT/что то/src/sass/style.sass */
+.footer {
+  background: #dfdbcf;
+}
+
+/* line 283, ../обучение IT/что то/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
+}
+
+/* line 287, ../обучение IT/что то/src/sass/style.sass */
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 292, ../обучение IT/что то/src/sass/style.sass */
+.footer__title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
